@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FruitProject.jnlp">
+  <information>
+    <title>FruitProject</title>
+    <vendor>Personal</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FruitProject.jar" size="416343" download="eager" />
+    <jar href="lib\java-json.jar" size="84697" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="FruitProject" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="fruitproject.FruitProject"  name="FruitProject" />
+  <update check="always"/>
+</jnlp>
